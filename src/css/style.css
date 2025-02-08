@@ -27,3 +27,33 @@ body {
 .nav-link:hover {
   color: var(--colorButton);
 }
+/*секція хіро*/
+.hero-title {
+  font-size: 64px;
+}
+.hero-title-part {
+  font-weight: 700;
+  font-size: 64px;
+}
+.hero-button {
+  line-height: 1.5;
+  letter-spacing: 0.06em;
+  background-color: var(--colorButton);
+  font-family: var(--textSecond);
+}
+.about-title {
+  font-weight: 700;
+  text-transform: capitalize;
+  font-size: 40px;
+}
+.about-text {
+  font-size: 32px;
+  line-height: 1.19;
+}
+.about-link {
+  color: var(--colorTextPrimary);
+  line-height: 1.5;
+  background-color: var(--colorButton);
+  font-family: var(--textSecond);
+  text-decoration: none;
+}

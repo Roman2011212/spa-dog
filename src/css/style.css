@@ -57,10 +57,18 @@ body {
   font-family: var(--textSecond);
   text-decoration: none;
 }
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 115px;
+  row-gap: 88px;
+}
+
 .features-title {
   font-weight: 700;
   font-size: 32px;
   text-transform: capitalize;
+  margin-bottom: ;
 }
 .features-text {
   line-height: ;
@@ -68,10 +76,17 @@ body {
 .footer {
   background-color: var(--colorBGPrimary);
 }
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .footer-link-logo {
   font-weight: 300;
   font-size: 32px;
   text-transform: capitalize;
+  display: flex;
+  align-items: center;
 }
 .footer-logo-part {
   color: var(--colorTExtContrast);

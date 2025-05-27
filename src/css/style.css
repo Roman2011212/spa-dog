@@ -57,3 +57,24 @@ body {
   font-family: var(--textSecond);
   text-decoration: none;
 }
+.features-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+.features-text {
+  line-height: ;
+}
+.footer {
+  background-color: var(--colorBGPrimary);
+}
+.footer-link-logo {
+  font-weight: 300;
+  font-size: 32px;
+  text-transform: capitalize;
+}
+.footer-logo-part {
+  color: var(--colorTExtContrast);
+  font-weight: 700;
+  text-decoration: none;
+}
